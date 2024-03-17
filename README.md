@@ -18,7 +18,7 @@ Este projeto é uma implementação simples de um menu dropdown utilizando HTML,
 
 ## Demo
 
-[Ver Demo](https://gabriellicar.github.io/dropdown/)
+[Ver Demo](https://gabriellicar.github.io/Dropdown/)
 
 ## Tecnologias Utilizadas
 
