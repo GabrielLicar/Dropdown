@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown | Challenge 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="card" class="hidden">
+      <div id="card-header">
+        <div id="card-title">
+          <div id="inner">
+            <i data-lucide="bookmark" class="bookmark"></i>
+            <p>Collections</p>
+          </div>
+        </div>
+        <div class="separator"></div>
+        <div id="card-theme">
+          <div class="theme">
+            <div id="light" class="white"></div>
+            <p class="theme-default">Light</p>
+          </div>
+          <div class="theme">
+            <div id="dark" class="black"></div>
+            <p class="theme-default">Dark</p>
+          </div>
+          <div class="theme">
+            <div id="system">
+              <div class="white"></div>
+              <div class="black"></div>
+            </div>
+            <p class="theme-default">System</p>
+          </div>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div id="card-content">
+        <ul>
+          <li>Pricing</li>
+          <li>Changelog</li>
+          <li class="arrow">
+            <p>Careers</p>
+            <i data-lucide="arrow-up-right" class="arrow-up-right"></i>
+          </li>
+          <li class="arrow">
+            <p>Support</p>
+            <i data-lucide="arrow-up-right" class="arrow-up-right"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="separator"></div>
+      <div id="card-footer">
+        <div>
+          <p>Privacy</p>
+          <p>Terms</p>
+          <p>Copyright</p>
+        </div>
+        <a href="https://x.com/gaablicar" target="_blank"><i data-lucide="twitter" class="twitter"></i></a>
+      </div>
+    </div>
+    <button type="button"">
+        <div class="line-master">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </button>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
